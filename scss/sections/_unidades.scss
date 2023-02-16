@@ -1,0 +1,29 @@
+/* UNIDADES */
+.gallery-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,min(1fr,2fr));
+    grid-template-rows: repeat(auto-fit,min(1fr,3fr));
+    grid-auto-rows: 200px;
+    padding: 30px;
+    grid-gap: 10px;
+}
+.gallery__item{
+    position: relative;
+}
+.gallery__img{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+}
+.gallery__title{
+    position: absolute;
+    bottom: 0;
+    color: white;
+    background: linear-gradient(#dcdcd7,#71aca8);
+    width: 100%;
+    margin: 0;
+    padding: 6px;
+}
+.gallery__item:nth-child(1){
+    grid-column-start: span 2;
+}

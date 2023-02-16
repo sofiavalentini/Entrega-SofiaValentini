@@ -1,3 +1,63 @@
 .header{
-    background-color: aqua;
+    font-family: $typo-principal;
+    font-size: 3.8rem;
+    font-weight: 200
+}
+
+
+.header__menu{
+    width: 80%;
+    margin: 2rem auto;
+    list-style-type: none;
+    text-align: center;
+    font-size: 0;
+}
+
+.header__menu ul li {
+
+    background: $grisclaro ;
+    text-align: center;
+}
+.header__menu li a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+    color: $celeste;
+
+}
+.header__menu--activo{
+    font-weight: bold;
+
+}
+
+.header__menu li:hover a {
+    background: $grisfuerte;
+    border-radius: 34rem;
+    color: #ffffff;
+}
+
+
+.header__menu li:hover ul {
+    width: 100%;
+    margin: 0 -4rem -4rem -4rem;
+    padding: 0 4rem 4rem 4rem;
+    z-index: 5;
+}
+
+.header__menu li li {
+    display: block;
+    width: 100%;
+}
+
+.header__menu li:hover li a {
+    font-size: 1.5rem;
+    line-height: 1.7rem;
+    border-top: 1px solid #e5e5e5;
+    background: $grisfuerte;
+    padding: .4rem;
+}
+
+.header__menu li li a:hover {
+    background: $grisfuerte; 
 }

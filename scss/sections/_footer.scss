@@ -1,0 +1,20 @@
+.footer{
+    display: flex;
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+    flex-direction: column;
+}
+.footer .redes{
+    text-align: center;
+}
+.footer .redes a {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    text-decoration: none;
+}
+
+.footer .texto {
+    text-align: center;
+    margin: 0.8rem;
+}
+

@@ -1,0 +1,17 @@
+/* BOTONES */
+.boton{
+    background-color: $grisfuerte;
+    color: #ffffff;
+    padding: 1rem 3rem;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5rem;
+    width: 90%;
+    text-align: center;
+    border: none;
+}
+.boton:hover {
+    cursor:pointer;
+}
