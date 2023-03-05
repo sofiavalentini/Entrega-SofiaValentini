@@ -39,3 +39,36 @@
 .faq__lista label + input[type="radio"]:checked + .content{
     max-height: 400px;
 }
+
+
+
+@media (max-width: 1490px){
+    .faq__lista{
+        margin: 30px auto;
+        width:600px
+    }
+}
+@media (max-width: 1290px) {
+    .faq__lista{
+        margin: 30px auto;
+        width:500px
+    }
+}
+@media (max-width: 1090px) {
+    .faq__lista{
+        margin: 30px auto;
+        width:400px
+    }
+}
+@media (max-width: 780px) {
+    .faq__lista{
+        margin: 30px auto;
+        width:300px
+    }
+}
+@media (max-width: 560px) {
+    .faq__lista{
+        margin: 30px auto;
+        width:200px
+    }
+}
